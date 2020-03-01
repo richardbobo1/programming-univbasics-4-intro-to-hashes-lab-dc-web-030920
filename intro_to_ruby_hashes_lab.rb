@@ -53,7 +53,7 @@ my_hash_creator( :name , 'Grace Hopper')
 
 def read_from_hash(hash, key)
   
-  hash_read = { 
+  hash1 = { 
     :name => "Steve"
   }
   
@@ -64,10 +64,10 @@ def read_from_hash(hash, key)
   
   
   if hash [ key ]
- return hash[ key]
-else
-  nil 
-end
+    hash[ key]
+    else
+      nil 
+  end
   
   
   # return the correct value using the hash and key parameters
@@ -75,7 +75,7 @@ end
 
 
 
-read_from_hash(hash_read, :name)
+read_from_hash(hash1, :name)
 
 
 
