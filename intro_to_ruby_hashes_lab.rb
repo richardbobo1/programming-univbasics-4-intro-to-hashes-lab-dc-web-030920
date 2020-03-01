@@ -61,7 +61,7 @@ def read_from_hash(hash, key)
     :name => "Tzvi"
   }
   
-  hash [ key]
+  return hash [ key]
   
   
   # return the correct value using the hash and key parameters
