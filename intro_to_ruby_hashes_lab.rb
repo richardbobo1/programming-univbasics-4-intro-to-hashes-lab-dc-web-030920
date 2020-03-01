@@ -53,11 +53,11 @@ my_hash_creator( :name , 'Grace Hopper')
 
 def read_from_hash(hash, key)
   
-  hash1 = { 
+  hash_one = { 
     :name => "Steve"
   }
   
-   hash2 = {
+   hash_two = {
     :name => "Tzvi"
   }
   
@@ -69,7 +69,6 @@ end
 
 
 
-read_from_hash(hash1, :name)
 
 
 
