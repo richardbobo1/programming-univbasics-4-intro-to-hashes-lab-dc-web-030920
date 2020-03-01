@@ -58,15 +58,10 @@ def read_from_hash(hash, key)
   }
   
   
-
-  
-  
    hash2 = {
     :name => "Tzvi",
     :age => 21
   }
-  
-  
   
   
   
@@ -75,7 +70,7 @@ end
 
 
 
-
+read_from_hash(hash_read, :name)
 
 
 
