@@ -62,7 +62,7 @@ def read_from_hash(hash, key)
     :age => 21
   }
   
-
+  hash [ key]
   
   
   # return the correct value using the hash and key parameters
