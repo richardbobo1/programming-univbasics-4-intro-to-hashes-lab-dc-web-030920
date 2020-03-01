@@ -78,6 +78,14 @@ end
 
 def update_counting_hash(hash, key)
   
+  new_hash = {}
+  
+  if hash[key]
+ hash["top hat"] += 1
+else
+ puts "Key not found!"
+end
+
   
   return hash 
   
