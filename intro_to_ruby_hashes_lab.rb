@@ -57,12 +57,17 @@ def read_from_hash(hash, key)
     :name => "Steve"
   }
   
-  
    hash2 = {
     :name => "Tzvi",
     :age => 21
   }
   
+  
+  if hash [ key ]
+ return hash[ key]
+else
+  nil 
+end
   
   
   # return the correct value using the hash and key parameters
